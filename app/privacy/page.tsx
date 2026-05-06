@@ -1,157 +1,244 @@
+
 export default function PrivacyPolicy() {
   return (
-    <div className="max-w-4xl mx-auto py-16 px-6">
+    <div className="max-w-4xl mx-auto px-6 py-16 text-gray-800">
 
-      <h1 className="text-4xl font-bold mb-6">
+      {/* Title */}
+      <h1 className="text-4xl font-bold mb-4">
         Privacy Policy
       </h1>
 
-      <p className="mb-4">
+      <p className="text-sm text-gray-500 mb-8">
         Last updated: March 7, 2026
       </p>
 
-      <p>
-        This application (Teacher Daily Book) is designed for teachers to manage
-        daily educational records and classroom activities. This Privacy Policy
-        explains how we collect, use, and protect your information when using
-        our application and website https://teacherdailybook.com.
+      {/* Intro */}
+      <p className="leading-7">
+        Teacher Daily Book (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;)
+        provides educational tools for teachers to manage daily teaching
+        records, schedules, and classroom activities.
       </p>
 
-      <h2 className="text-2xl font-semibold mt-8">
-        Information We Collect
+      <p className="mt-4 leading-7">
+        This Privacy Policy explains how we collect, use, and protect your
+        information when you use our application and website:
+      </p>
+
+      <a
+        href="https://teacherdailybook.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-3 inline-block font-medium text-blue-600 hover:underline break-all"
+      >
+        https://teacherdailybook.com
+      </a>
+
+      {/* Section 1 */}
+      <h2 className="text-2xl font-semibold mt-12">
+        1. Information We Collect
       </h2>
 
-      <p className="mt-2">
-        When users create an account in the application we may collect the
-        following information:
+      <p className="mt-4 leading-7">
+        When you create an account or use the application, we may collect:
       </p>
 
-      <ul className="list-disc ml-6 mt-3">
-        <li>User Name</li>
-        <li>Email Address</li>
-        <li>School Name</li>
-        <li>School related details required for app functionality</li>
+      <ul className="list-disc ml-6 mt-4 space-y-2">
+        <li>Name</li>
+        <li>Email address</li>
+        <li>School name</li>
+        <li>Educational and schedule-related data entered by users</li>
       </ul>
 
-      <h2 className="text-2xl font-semibold mt-8">
-        Automatically Collected Information
+      {/* Section 2 */}
+      <h2 className="text-2xl font-semibold mt-12">
+        2. Automatically Collected Information
       </h2>
 
-      <p className="mt-2">
-        Some information may be automatically collected by third-party
-        services used in the application.
+      <p className="mt-4 leading-7">
+        Some technical information may be collected automatically through
+        third-party services used in the application.
       </p>
 
-      <ul className="list-disc ml-6 mt-3">
+      <ul className="list-disc ml-6 mt-4 space-y-2">
         <li>Device information</li>
         <li>Advertising ID</li>
         <li>IP address</li>
         <li>App usage statistics</li>
+        <li>Crash reports and analytics data</li>
       </ul>
 
-      <h2 className="text-2xl font-semibold mt-8">
-        How We Use Information
+      {/* Section 3 */}
+      <h2 className="text-2xl font-semibold mt-12">
+        3. How We Use Information
       </h2>
 
-      <ul className="list-disc ml-6 mt-3">
+      <ul className="list-disc ml-6 mt-4 space-y-2">
         <li>To create and manage user accounts</li>
-        <li>To manage school related educational data</li>
-        <li>To improve application performance</li>
-        <li>To provide app functionality</li>
+        <li>To provide daily book and schedule functionality</li>
+        <li>To securely store educational records</li>
+        <li>To improve application performance and user experience</li>
+        <li>To maintain app security and reliability</li>
         <li>To display advertisements</li>
       </ul>
 
-      <h2 className="text-2xl font-semibold mt-8">
-        Advertising
+      {/* Section 4 */}
+      <h2 className="text-2xl font-semibold mt-12">
+        4. Advertising
       </h2>
 
-      <p className="mt-2">
+      <p className="mt-4 leading-7">
         Our application may display advertisements using third-party
-        advertising networks including:
+        advertising services including:
       </p>
 
-      <ul className="list-disc ml-6 mt-3">
+      <ul className="list-disc ml-6 mt-4 space-y-2">
         <li>Google AdMob</li>
         <li>Facebook Audience Network</li>
-        <li>Other third-party advertising providers</li>
+        <li>Other advertising providers if added in the future</li>
       </ul>
 
-      <p className="mt-3">
-        These services may collect device identifiers and advertising IDs
-        to display personalized or non-personalized advertisements.
+      <p className="mt-4 leading-7">
+        These advertising providers may collect and process certain technical
+        information including device identifiers, advertising IDs, IP
+        addresses, and app interaction data to provide personalized or
+        non-personalized advertisements.
       </p>
 
-      <h2 className="text-2xl font-semibold mt-8">
-        Data Storage and Security
+      <p className="mt-4 leading-7">
+        Users can manage advertisement personalization settings through
+        their Google account or device settings.
+      </p>
+
+      {/* Section 5 */}
+      <h2 className="text-2xl font-semibold mt-12">
+        5. Analytics
       </h2>
 
-      <p className="mt-2">
-        User data such as name, email, and school information may be stored
-        securely on our servers or trusted cloud services to provide app
-        functionality. We take reasonable steps to protect user data.
+      <p className="mt-4 leading-7">
+        We may use analytics services to understand app performance,
+        improve features, monitor stability, and enhance user experience.
       </p>
 
-      <h2 className="text-2xl font-semibold mt-8">
-        Data Deletion
+      {/* Section 6 */}
+      <h2 className="text-2xl font-semibold mt-12">
+        6. Third-Party Services
       </h2>
 
-      <p className="mt-2">
-        Users have the right to request deletion of their account and
-        associated data.
+      <p className="mt-4 leading-7">
+        Our application may use trusted third-party services such as:
       </p>
 
-      <p className="mt-2">
-        You can request account deletion using the following page:
+      <ul className="list-disc ml-6 mt-4 space-y-2">
+        <li>Supabase</li>
+        <li>Google Firebase</li>
+        <li>Google Play Services</li>
+        <li>Google AdMob</li>
+      </ul>
+
+      <p className="mt-4 leading-7">
+        These services may process limited technical information required
+        for authentication, analytics, advertising, database storage,
+        and app functionality.
       </p>
 
-      <p className="font-medium mt-2 text-blue-600">
-        https://teacherdailybook.com/delete-account
+      {/* Section 7 */}
+      <h2 className="text-2xl font-semibold mt-12">
+        7. Data Storage and Security
+      </h2>
+
+      <p className="mt-4 leading-7">
+        User information is stored securely using trusted cloud
+        infrastructure. We implement reasonable security measures to
+        protect user data from unauthorized access, misuse, or disclosure.
+      </p>
+
+      {/* Section 8 */}
+      <h2 className="text-2xl font-semibold mt-12">
+        8. Data Deletion
+      </h2>
+
+      <p className="mt-4 leading-7">
+        Users can request deletion of their account and associated data
+        at any time.
       </p>
 
       <p className="mt-4">
-        You can also request deletion by contacting us at:
+        Account deletion requests can be submitted at:
       </p>
 
-      <p className="font-medium mt-2">
+      <a
+        href="https://teacherdailybook.com/delete-account"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-2 inline-block font-medium text-blue-600 hover:underline break-all"
+      >
+        https://teacherdailybook.com/delete-account
+      </a>
+
+      <p className="mt-4">
+        Users may also request deletion by contacting:
+      </p>
+
+      <a
+        href="mailto:teacherdailybook@gmail.com"
+        className="mt-2 inline-block font-medium text-blue-600 hover:underline"
+      >
         teacherdailybook@gmail.com
+      </a>
+
+      <p className="mt-4 leading-7">
+        Deletion requests are typically processed within 7 working days.
       </p>
 
-      <h2 className="text-2xl font-semibold mt-8">
-        Children's Privacy
+      {/* Section 9 */}
+      <h2 className="text-2xl font-semibold mt-12">
+        9. Children&apos;s Privacy
       </h2>
 
-      <p className="mt-2">
+      <p className="mt-4 leading-7">
         This application is intended for teachers and educational staff.
-        It is not designed for children under 13 years of age and we do not
-        knowingly collect personal information from children.
+        It is not designed for children under 13 years of age, and we do
+        not knowingly collect personal information from children.
       </p>
 
-      <h2 className="text-2xl font-semibold mt-8">
-        Changes to This Privacy Policy
+      {/* Section 10 */}
+      <h2 className="text-2xl font-semibold mt-12">
+        10. Changes to This Privacy Policy
       </h2>
 
-      <p className="mt-2">
-        We may update this Privacy Policy from time to time. Any updates
-        will be posted on this page with the updated date.
+      <p className="mt-4 leading-7">
+        We may update this Privacy Policy from time to time. Updated
+        versions will be posted on this page along with the revised
+        update date.
       </p>
 
-      <h2 className="text-2xl font-semibold mt-8">
-        Contact Us
+      {/* Section 11 */}
+      <h2 className="text-2xl font-semibold mt-12">
+        11. Contact Us
       </h2>
 
-      <p className="mt-2">
-        If you have any questions regarding this Privacy Policy please
-        contact us:
+      <p className="mt-4 leading-7">
+        If you have any questions regarding this Privacy Policy,
+        please contact us:
       </p>
 
-      <p className="font-medium mt-2">
+      <a
+        href="mailto:teacherdailybook@gmail.com"
+        className="mt-4 block font-medium text-blue-600 hover:underline"
+      >
         Email: teacherdailybook@gmail.com
-      </p>
+      </a>
 
-      <p className="mt-2">
-        Website: https://teacherdailybook.com
-      </p>
+      <a
+        href="https://teacherdailybook.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-2 inline-block text-blue-600 hover:underline break-all"
+      >
+        https://teacherdailybook.com
+      </a>
 
     </div>
   );
 }
+
