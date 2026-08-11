@@ -46,6 +46,8 @@ export default function PrivacyPolicy() {
         <li>Name</li>
         <li>Email address</li>
         <li>School name</li>
+        <li>District name</li>
+        <li>Taluka name</li>
         <li>Educational and schedule-related data entered by users</li>
       </ul>
 
